@@ -1,3 +1,12 @@
 "use strict";
 
-var hello = "hello world";
+var _app = _interopRequireDefault(require("./app"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function main() {
+  console.log('server on port 4000');
+}
+
+;
+main();

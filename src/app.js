@@ -1,10 +1,10 @@
-import express from 'express'
+import express,{json} from 'express'
 import morgan from 'morgan'
-import { json } from 'sequelize/types';
 
 //imported route
 import projectRoutes from './routes/projects';
 import taskRoutes from './routes/tasks';
+
 const app = express();
 
 
