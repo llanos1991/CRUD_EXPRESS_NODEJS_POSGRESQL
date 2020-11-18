@@ -1,2 +1,9 @@
-const hello="hello world";
-console.log(hello);
+import app from './app';
+
+
+function main(){
+
+console.log('server on port 4000');
+};
+
+main();
